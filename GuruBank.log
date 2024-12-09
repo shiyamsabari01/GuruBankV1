@@ -1,0 +1,144 @@
+[2024-12-06 18:51:21] [INFO] [BaseClass] - Browser Launched!!!
+[2024-12-06 18:51:22] [INFO] [LoginPage_Test] - URL Opened
+[2024-12-06 18:51:23] [INFO] [LoginPage_Test] - UserName Entered
+[2024-12-06 18:51:23] [INFO] [LoginPage_Test] - Password Entered
+[2024-12-06 18:51:24] [INFO] [LoginPage_Test] - Home Page Entered
+[2024-12-06 18:51:24] [INFO] [LoginPage_Test] - Verifying the Page Title
+[2024-12-06 18:51:24] [INFO] [LoginPage_Test] - Login Test Passed
+[2024-12-07 08:07:37] [INFO] [BaseClass] - Browser Launched!!!
+[2024-12-07 08:07:39] [INFO] [BaseClass] - URL Opened
+[2024-12-07 08:07:39] [INFO] [LoginPage_Test] - UserName Entered
+[2024-12-07 08:07:39] [INFO] [LoginPage_Test] - Password Entered
+[2024-12-07 08:07:40] [INFO] [LoginPage_Test] - Home Page Entered
+[2024-12-07 08:07:40] [INFO] [LoginPage_Test] - Verifying the Page Title
+[2024-12-07 08:07:40] [INFO] [LoginPage_Test] - Login Test Passed
+[2024-12-07 08:09:14] [INFO] [BaseClass] - Browser Launched!!!
+[2024-12-07 08:09:16] [INFO] [BaseClass] - URL Opened
+[2024-12-07 08:09:16] [INFO] [LoginPage_Test] - UserName Entered
+[2024-12-07 08:09:16] [INFO] [LoginPage_Test] - Password Entered
+[2024-12-07 08:09:17] [INFO] [LoginPage_Test] - Home Page Entered
+[2024-12-07 08:09:17] [INFO] [LoginPage_Test] - Verifying the Page Title
+[2024-12-07 08:09:17] [INFO] [LoginPage_Test] - Login Test Passed
+[2024-12-08 08:24:11] [INFO] [BaseClass] - Browser Launched!!!
+[2024-12-08 08:24:13] [INFO] [BaseClass] - URL Opened
+[2024-12-08 08:24:13] [INFO] [LoginPage_Test] - UserName Entered
+[2024-12-08 08:24:14] [INFO] [LoginPage_Test] - Password Entered
+[2024-12-08 08:24:14] [INFO] [LoginPage_Test] - Home Page Entered
+[2024-12-08 08:24:14] [INFO] [LoginPage_Test] - Verifying the Page Title
+[2024-12-08 08:24:14] [INFO] [LoginPage_Test] - Login Test Passed
+[2024-12-08 08:25:24] [INFO] [BaseClass] - Browser Launched!!!
+[2024-12-08 08:25:26] [INFO] [BaseClass] - URL Opened
+[2024-12-08 08:25:26] [INFO] [LoginPage_Test] - UserName Entered
+[2024-12-08 08:25:26] [INFO] [LoginPage_Test] - Password Entered
+[2024-12-08 08:25:27] [INFO] [LoginPage_Test] - Home Page Entered
+[2024-12-08 08:25:27] [INFO] [LoginPage_Test] - Verifying the Page Title
+[2024-12-08 08:25:27] [INFO] [LoginPage_Test] - Login Test Passed
+[2024-12-08 08:27:23] [INFO] [BaseClass] - Browser Launched!!!
+[2024-12-08 08:27:25] [INFO] [BaseClass] - URL Opened
+[2024-12-08 08:27:25] [INFO] [LoginPage_Test] - UserName Entered
+[2024-12-08 08:27:25] [INFO] [LoginPage_Test] - Password Entered
+[2024-12-08 08:27:25] [INFO] [LoginPage_Test] - Home Page Entered
+[2024-12-08 08:27:25] [INFO] [LoginPage_Test] - Verifying the Page Title
+[2024-12-08 08:29:27] [INFO] [BaseClass] - Browser Launched!!!
+[2024-12-08 08:29:29] [INFO] [BaseClass] - URL Opened
+[2024-12-08 08:29:29] [INFO] [LoginPage_Test] - UserName Entered
+[2024-12-08 08:29:29] [INFO] [LoginPage_Test] - Password Entered
+[2024-12-08 08:29:30] [INFO] [LoginPage_Test] - Home Page Entered
+[2024-12-08 08:29:30] [INFO] [LoginPage_Test] - Verifying the Page Title
+[2024-12-08 08:29:30] [INFO] [LoginPage_Test] - Login Test Passed
+[2024-12-08 08:31:34] [INFO] [BaseClass] - Browser Launched!!!
+[2024-12-08 08:31:36] [INFO] [BaseClass] - URL Opened
+[2024-12-08 08:31:36] [INFO] [LoginPage_Test] - UserName Entered
+[2024-12-08 08:31:36] [INFO] [LoginPage_Test] - Password Entered
+[2024-12-08 08:31:37] [INFO] [LoginPage_Test] - Home Page Entered
+[2024-12-08 08:31:37] [INFO] [LoginPage_Test] - Verifying the Page Title
+[2024-12-08 08:31:37] [INFO] [LoginPage_Test] - Login Test Failed
+[2024-12-08 08:38:59] [INFO] [BaseClass] - Browser Launched!!!
+[2024-12-08 08:39:01] [INFO] [BaseClass] - URL Opened
+[2024-12-08 08:39:01] [INFO] [LoginPage_Test] - UserName Entered
+[2024-12-08 08:39:01] [INFO] [LoginPage_Test] - Password Entered
+[2024-12-08 08:39:02] [INFO] [LoginPage_Test] - Home Page Entered
+[2024-12-08 08:39:02] [INFO] [LoginPage_Test] - Verifying the Page Title
+[2024-12-08 08:39:02] [INFO] [LoginPage_Test] - Login Test Failed
+[2024-12-08 08:41:52] [INFO] [BaseClass] - Browser Launched!!!
+[2024-12-08 08:41:54] [INFO] [BaseClass] - URL Opened
+[2024-12-08 08:41:54] [INFO] [LoginPage_Test] - UserName Entered
+[2024-12-08 08:41:54] [INFO] [LoginPage_Test] - Password Entered
+[2024-12-08 08:41:55] [INFO] [LoginPage_Test] - Home Page Entered
+[2024-12-08 08:41:55] [INFO] [LoginPage_Test] - Verifying the Page Title
+[2024-12-08 08:41:55] [INFO] [LoginPage_Test] - Login Test Failed
+[2024-12-08 12:07:37] [INFO] [BaseClass] - Browser Launched!!!
+[2024-12-08 12:07:40] [INFO] [BaseClass] - URL Opened
+[2024-12-08 12:07:40] [INFO] [LoginPage_Test] - UserName Entered
+[2024-12-08 12:07:40] [INFO] [LoginPage_Test] - Password Entered
+[2024-12-08 12:07:41] [INFO] [LoginPage_Test] - Home Page Entered
+[2024-12-08 12:07:41] [INFO] [LoginPage_Test] - Verifying the Page Title
+[2024-12-08 12:07:42] [INFO] [LoginPage_Test] - Login Test Failed
+[2024-12-08 12:13:42] [INFO] [BaseClass] - Browser Launched!!!
+[2024-12-08 12:13:45] [INFO] [BaseClass] - URL Opened
+[2024-12-08 12:13:45] [INFO] [LoginPage_Test] - UserName Entered
+[2024-12-08 12:13:45] [INFO] [LoginPage_Test] - Password Entered
+[2024-12-08 12:13:46] [INFO] [LoginPage_Test] - Home Page Entered
+[2024-12-08 12:13:46] [INFO] [LoginPage_Test] - Verifying the Page Title
+[2024-12-08 12:16:33] [INFO] [BaseClass] - Browser Launched!!!
+[2024-12-08 12:16:35] [INFO] [BaseClass] - URL Opened
+[2024-12-08 12:16:35] [INFO] [LoginPage_Test] - UserName Entered
+[2024-12-08 12:16:35] [INFO] [LoginPage_Test] - Password Entered
+[2024-12-08 12:16:36] [INFO] [LoginPage_Test] - Home Page Entered
+[2024-12-08 12:16:36] [INFO] [LoginPage_Test] - Verifying the Page Title
+[2024-12-08 12:22:15] [INFO] [BaseClass] - Browser Launched!!!
+[2024-12-08 12:22:16] [INFO] [BaseClass] - URL Opened
+[2024-12-08 12:22:17] [INFO] [LoginPage_Test] - UserName Entered
+[2024-12-08 12:22:18] [INFO] [LoginPage_Test] - Password Entered
+[2024-12-08 12:22:18] [INFO] [LoginPage_Test] - Home Page Entered
+[2024-12-08 12:22:18] [INFO] [LoginPage_Test] - Verifying the Page Title
+[2024-12-08 12:26:00] [INFO] [BaseClass] - Browser Launched!!!
+[2024-12-08 12:33:28] [INFO] [BaseClass] - Browser Launched!!!
+[2024-12-08 12:33:31] [INFO] [BaseClass] - URL Opened
+[2024-12-08 12:33:31] [INFO] [LoginPage_Test] - UserName Entered
+[2024-12-08 12:33:31] [INFO] [LoginPage_Test] - Password Entered
+[2024-12-08 12:33:32] [INFO] [LoginPage_Test] - Home Page Entered
+[2024-12-08 12:33:32] [INFO] [LoginPage_Test] - Verifying the Page Title
+[2024-12-08 13:59:58] [INFO] [BaseClass] - Browser Launched!!!
+[2024-12-08 14:00:00] [INFO] [BaseClass] - URL Opened
+[2024-12-08 14:00:00] [INFO] [LoginPage_Test] - UserName Entered
+[2024-12-08 14:00:00] [INFO] [LoginPage_Test] - Password Entered
+[2024-12-08 14:00:02] [INFO] [LoginPage_Test] - Home Page Entered
+[2024-12-08 14:00:02] [INFO] [LoginPage_Test] - Verifying the Page Title
+[2024-12-08 14:00:02] [INFO] [LoginPage_Test] - Login Test Passed
+[2024-12-08 14:00:03] [INFO] [BaseClass] - Browser Launched!!!
+[2024-12-08 14:00:06] [INFO] [BaseClass] - URL Opened
+[2024-12-08 14:00:09] [INFO] [LoginPage_DDT] - User Name Provided
+[2024-12-08 14:00:09] [INFO] [LoginPage_DDT] - Password Provided
+[2024-12-08 14:00:09] [INFO] [LoginPage_DDT] - Login Passed
+[2024-12-08 14:00:09] [INFO] [LoginPage_DDT] - User Name Provided
+[2024-12-08 14:00:09] [INFO] [LoginPage_DDT] - Password Provided
+[2024-12-08 14:00:10] [INFO] [LoginPage_DDT] - Login Passed
+[2024-12-08 14:00:11] [INFO] [LoginPage_DDT] - User Name Provided
+[2024-12-08 14:00:11] [INFO] [LoginPage_DDT] - Password Provided
+[2024-12-08 14:00:11] [INFO] [LoginPage_DDT] - Login Passed
+[2024-12-08 14:07:28] [INFO] [BaseClass] - Browser Launched!!!
+[2024-12-08 14:07:31] [INFO] [BaseClass] - URL Opened
+[2024-12-08 14:07:32] [INFO] [LoginPage_DDT] - User Name Provided
+[2024-12-08 14:07:32] [INFO] [LoginPage_DDT] - Password Provided
+[2024-12-08 14:07:32] [INFO] [LoginPage_DDT] - Login Passed
+[2024-12-08 14:07:33] [INFO] [LoginPage_DDT] - User Name Provided
+[2024-12-08 14:07:33] [INFO] [LoginPage_DDT] - Password Provided
+[2024-12-08 14:07:34] [INFO] [LoginPage_DDT] - User Name Provided
+[2024-12-08 14:07:34] [INFO] [LoginPage_DDT] - Password Provided
+[2024-12-08 14:07:34] [INFO] [LoginPage_DDT] - Login Passed
+[2024-12-08 14:30:17] [INFO] [BaseClass] - Browser Launched!!!
+[2024-12-08 14:30:19] [INFO] [BaseClass] - URL Opened
+[2024-12-08 14:30:19] [INFO] [LoginPage_Test] - UserName Entered
+[2024-12-08 14:30:20] [INFO] [LoginPage_Test] - Password Entered
+[2024-12-08 14:30:21] [INFO] [LoginPage_Test] - Home Page Entered
+[2024-12-08 14:30:21] [INFO] [LoginPage_Test] - Verifying the Page Title
+[2024-12-08 14:30:21] [INFO] [LoginPage_Test] - Login Test Passed
+[2024-12-08 21:50:16] [INFO] [BaseClass] - Browser Launched!!!
+[2024-12-08 21:50:19] [INFO] [BaseClass] - URL Opened
+[2024-12-08 21:50:19] [INFO] [AddCustomer_Test] - UserName Entered
+[2024-12-08 21:50:19] [INFO] [AddCustomer_Test] - Password Entered
+[2024-12-08 21:53:27] [INFO] [BaseClass] - Browser Launched!!!
+[2024-12-08 21:53:31] [INFO] [BaseClass] - URL Opened
+[2024-12-08 21:53:31] [INFO] [AddCustomer_Test] - UserName Entered
+[2024-12-08 21:53:31] [INFO] [AddCustomer_Test] - Password Entered

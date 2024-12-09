@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Guru Bank Suite">
+    <listeners>
+        <listener class-name="utilities.ReportingFile"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="D:/Automation Practice/GuruBankV1">
+        <classes>
+            <!--<class name="testCases.LoginPage_Test"/>-->
+            <class name="testCases.AddCustomer_Test"/>
+            <!--<class name="testCases.LoginPage_DDT"/>-->
+        </classes>
+    </test>
+</suite>

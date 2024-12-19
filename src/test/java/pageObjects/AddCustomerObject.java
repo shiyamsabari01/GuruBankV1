@@ -31,6 +31,8 @@ public class AddCustomerObject {
     WebElement teleNum;
     @FindBy(xpath = "//input[@name='emailid']")
     WebElement emailID;
+    @FindBy(xpath="//input[@type='password']")
+    WebElement passwordBox;
     @FindBy(xpath = "//input[@name='sub']")
     WebElement subBtn;
 
@@ -66,7 +68,10 @@ public class AddCustomerObject {
     public void enterEMAIL(String CEmail){
         emailID.sendKeys(CEmail);
     }
-    public void clickingSubmit(){
+    public void enterPassword(String Cpassword){
+        passwordBox.sendKeys(Cpassword);
+
+    }    public void clickingSubmit(){
         subBtn.click();
     }
 }

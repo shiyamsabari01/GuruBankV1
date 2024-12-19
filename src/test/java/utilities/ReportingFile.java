@@ -21,6 +21,7 @@ public class ReportingFile implements ITestListener {
     public static ExtentSparkReporter sparkReporter;
     public static ExtentTest testCase;
 
+
     public void onStart(ITestContext context) {
         String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
         String reportName = "Extent-report-" + timeStamp + ".html";

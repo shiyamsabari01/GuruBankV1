@@ -1,25 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-08T21:53:25 IST" name="Guru Bank Suite" finished-at="2024-12-08T21:53:35 IST" duration-ms="10903">
+  <suite started-at="2024-12-19T18:30:56 IST" name="Guru Bank Suite" finished-at="2024-12-19T18:31:41 IST" duration-ms="45183">
     <groups>
     </groups>
-    <test started-at="2024-12-08T21:53:25 IST" name="D:/Automation Practice/GuruBankV1" finished-at="2024-12-08T21:53:35 IST" duration-ms="10903">
-      <class name="testCases.AddCustomer_Test">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.AddCustomer_Test@53f0a4cb]" started-at="2024-12-08T21:53:25 IST" name="setUp" finished-at="2024-12-08T21:53:31 IST" duration-ms="6206" status="PASS">
+    <test started-at="2024-12-19T18:30:56 IST" name="Login Page Test" finished-at="2024-12-19T18:31:07 IST" duration-ms="11004">
+      <class name="testCases.LoginPage_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.LoginPage_Test@4c550889]" started-at="2024-12-19T18:30:57 IST" name="setUp" finished-at="2024-12-19T18:31:05 IST" duration-ms="7919" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addCustomer()[pri:0, instance:testCases.AddCustomer_Test@53f0a4cb]" started-at="2024-12-08T21:53:31 IST" name="addCustomer" finished-at="2024-12-08T21:53:35 IST" duration-ms="4340" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:testCases.LoginPage_Test@4c550889]" started-at="2024-12-19T18:31:05 IST" name="loginTest" finished-at="2024-12-19T18:31:06 IST" duration-ms="1396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPage_Test@4c550889]" started-at="2024-12-19T18:31:06 IST" name="tearDown" finished-at="2024-12-19T18:31:07 IST" duration-ms="1215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.LoginPage_Test -->
+    </test> <!-- Login Page Test -->
+    <test started-at="2024-12-19T18:31:08 IST" name="Add customer Page Test" finished-at="2024-12-19T18:31:18 IST" duration-ms="10181">
+      <class name="testCases.AddCustomer_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.AddCustomer_Test@4c2cc639]" started-at="2024-12-19T18:31:08 IST" name="setUp" finished-at="2024-12-19T18:31:11 IST" duration-ms="3104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addCustomer()[pri:0, instance:testCases.AddCustomer_Test@4c2cc639]" started-at="2024-12-19T18:31:11 IST" name="addCustomer" finished-at="2024-12-19T18:31:16 IST" duration-ms="5182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddCustomer_Test@53f0a4cb]" started-at="2024-12-08T21:53:35 IST" name="tearDown" finished-at="2024-12-08T21:53:35 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddCustomer_Test@4c2cc639]" started-at="2024-12-19T18:31:16 IST" name="tearDown" finished-at="2024-12-19T18:31:18 IST" duration-ms="1890" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.AddCustomer_Test -->
-    </test> <!-- D:/Automation Practice/GuruBankV1 -->
+    </test> <!-- Add customer Page Test -->
+    <test started-at="2024-12-19T18:31:18 IST" name="Edit customer Page Test" finished-at="2024-12-19T18:31:26 IST" duration-ms="8072">
+      <class name="testCases.EditCustomer_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.EditCustomer_Test@2a5b3fee]" started-at="2024-12-19T18:31:18 IST" name="setUp" finished-at="2024-12-19T18:31:21 IST" duration-ms="3147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="editCustomer()[pri:0, instance:testCases.EditCustomer_Test@2a5b3fee]" started-at="2024-12-19T18:31:21 IST" name="editCustomer" finished-at="2024-12-19T18:31:25 IST" duration-ms="3197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.EditCustomer_Test@2a5b3fee]" started-at="2024-12-19T18:31:25 IST" name="tearDown" finished-at="2024-12-19T18:31:26 IST" duration-ms="1726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.EditCustomer_Test -->
+    </test> <!-- Edit customer Page Test -->
+    <test started-at="2024-12-19T18:31:26 IST" name="Add New Account Test" finished-at="2024-12-19T18:31:34 IST" duration-ms="8001">
+      <class name="testCases.NewAccount_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.NewAccount_Test@2cc3ad05]" started-at="2024-12-19T18:31:26 IST" name="setUp" finished-at="2024-12-19T18:31:29 IST" duration-ms="2834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createNewAccount()[pri:0, instance:testCases.NewAccount_Test@2cc3ad05]" started-at="2024-12-19T18:31:29 IST" name="createNewAccount" finished-at="2024-12-19T18:31:33 IST" duration-ms="3382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.NewAccount_Test@2cc3ad05]" started-at="2024-12-19T18:31:33 IST" name="tearDown" finished-at="2024-12-19T18:31:34 IST" duration-ms="1780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.NewAccount_Test -->
+    </test> <!-- Add New Account Test -->
+    <test started-at="2024-12-19T18:31:34 IST" name="Fund Transfer Test" finished-at="2024-12-19T18:31:41 IST" duration-ms="7006">
+      <class name="testCases.FundTransfer_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.FundTransfer_Test@25e2ab5a]" started-at="2024-12-19T18:31:34 IST" name="setUp" finished-at="2024-12-19T18:31:37 IST" duration-ms="3017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sendFundTransfer()[pri:0, instance:testCases.FundTransfer_Test@25e2ab5a]" started-at="2024-12-19T18:31:37 IST" name="sendFundTransfer" finished-at="2024-12-19T18:31:40 IST" duration-ms="2519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendFundTransfer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.FundTransfer_Test@25e2ab5a]" started-at="2024-12-19T18:31:40 IST" name="tearDown" finished-at="2024-12-19T18:31:41 IST" duration-ms="1467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.FundTransfer_Test -->
+    </test> <!-- Fund Transfer Test -->
   </suite> <!-- Guru Bank Suite -->
 </testng-results>

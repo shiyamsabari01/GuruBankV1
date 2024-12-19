@@ -10,25 +10,27 @@ import pageObjects.LoginPageObject;
 import utilities.ExcelUtils;
 
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 @Test(dataProvider = "LoginData")
 public class LoginPage_DDT extends BaseClass {
-    private static final Logger LOGGER= LogManager.getLogger(LoginPage_DDT.class);
+    private static final Logger LOGGER = LogManager.getLogger(LoginPage_DDT.class);
 
-    public void loginDTT(String user,String pwd) {
-        LoginPageObject login=new LoginPageObject();
+    public void loginDTT(String user, String pwd) {
+        DriverManager.getDriver().manage().timeouts().implicitlyWait(5000, TimeUnit.SECONDS);
+        LoginPageObject login = new LoginPageObject();
         login.setUserName(user);
         LOGGER.info("User Name Provided");
         login.setPassword(pwd);
         LOGGER.info("Password Provided");
         login.clickSubmit();
 
-        if (isAlertIsPresent()==true){
+        if (isAlertIsPresent() == true) {
             DriverManager.getDriver().switchTo().alert().accept();
             DriverManager.getDriver().switchTo().defaultContent();
             Assert.assertTrue(false);
             LOGGER.info("Login Failed");
-        }else {
+        } else {
             Assert.assertTrue(true);
             LOGGER.info("Login Passed");
             login.clickLogOut();
@@ -43,10 +45,10 @@ public class LoginPage_DDT extends BaseClass {
         int rows = ExcelUtils.getRowCount(path, "Sheet1");
         int colums = ExcelUtils.getCellCount(path, "Sheet1", 1);
 
-        String loginData[][] = new String[rows][colums];
+        String[][] loginData = new String[rows][colums];
         for (int row = 1; row < rows; row++) {
             for (int cell = 0; cell < colums; cell++) {
-                loginData[row - 1][cell] = ExcelUtils.getCellData(path, "Sheet1", row, colums);
+                loginData[row - 1][cell] = ExcelUtils.getCellData(path, "Sheet1", colums, row);
             }
         }
         return loginData;

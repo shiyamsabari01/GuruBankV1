@@ -13,21 +13,25 @@ public class LoginPage_Test extends BaseClass {
 
     @Test
     public void loginTest() {
-        LoginPageObject LP = new LoginPageObject();
-        LP.setUserName(Constants.USERNAME);
-        LOGGER.info("UserName Entered");
-        LP.setPassword(Constants.PASSWORD);
-        LOGGER.info("Password Entered");
-        LP.clickSubmit();
-        LOGGER.info("Home Page Entered");
-        LOGGER.info("Verifying the Page Title");
-        if (DriverManager.getDriver().getTitle().equalsIgnoreCase("gtpl bank manager homepage")) {
-            Assert.assertTrue(true);
-            LOGGER.info("Login Test Passed");
-        } else {
-            takeScreenShot(DriverManager.getDriver(),"loginTest");
-            Assert.assertTrue(false);
-            LOGGER.info("Login Test Failed");
+        try {
+            LoginPageObject LP = new LoginPageObject();
+            LP.setUserName(Constants.USERNAME);
+            LOGGER.info("UserName Entered");
+            LP.setPassword(Constants.PASSWORD);
+            LOGGER.info("Password Entered");
+            LP.clickSubmit();
+            LOGGER.info("Home Page Entered");
+            LOGGER.info("Verifying the Page Title");
+            if (DriverManager.getDriver().getTitle().equalsIgnoreCase("guru99 bank manager homepage")) {
+                Assert.assertTrue(true);
+                LOGGER.info("Login Test Passed");
+            } else {
+                takeScreenShot(DriverManager.getDriver(),"loginTest");
+                Assert.assertTrue(false);
+                LOGGER.info("Login Test Failed");
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 }

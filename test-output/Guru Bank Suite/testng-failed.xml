@@ -4,15 +4,26 @@
   <listeners>
     <listener class-name="utilities.ReportingFile"/>
   </listeners>
-  <test thread-count="5" name="D:/Automation Practice/GuruBankV1(failed)">
+  <test thread-count="5" name="Edit customer Page Test(failed)">
     <classes>
-      <class name="testCases.AddCustomer_Test">
+      <class name="testCases.EditCustomer_Test">
         <methods>
-          <include name="addCustomer"/>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="editCustomer"/>
         </methods>
-      </class> <!-- testCases.AddCustomer_Test -->
+      </class> <!-- testCases.EditCustomer_Test -->
     </classes>
-  </test> <!-- D:/Automation Practice/GuruBankV1(failed) -->
+  </test> <!-- Edit customer Page Test(failed) -->
+  <test thread-count="5" name="Add New Account Test(failed)">
+    <classes>
+      <class name="testCases.NewAccount_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="createNewAccount"/>
+        </methods>
+      </class> <!-- testCases.NewAccount_Test -->
+    </classes>
+  </test> <!-- Add New Account Test(failed) -->
 </suite> <!-- Failed suite [Guru Bank Suite] -->
